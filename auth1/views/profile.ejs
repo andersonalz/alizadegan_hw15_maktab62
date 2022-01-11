@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+      rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="cssprofilr.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container rounded bg-white mt-5 mb-5">
+      <div class="row">
+         <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+               <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4 class="text-right">Profile Settings</h4>
+               </div>
+               <div class="row mt-2">
+                  <!-- disabled for input -->
+                  <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control"
+                       placeholder="first name" value="" id="name"></div>
+                  <div class="col-md-6"><label class="labels">password</label><input type="text" class="form-control"
+                        value="" placeholder="password"></div>
+               </div>
+               <div class="row mt-2">
+                  <div class="col-md-12"><label class="labels">email</label><input type="text"
+                        class="form-control" placeholder="email" value=""></div>
+                  <div class="col-md-12"><label class="labels">gender</label><input type="text"
+                        class="form-control" placeholder="gender" value=""></div>
+                  <div class="col-md-12"><label class="labels">ID</label><input type="text" class="form-control"
+                        placeholder="id" value=""></div>
+               </div>
+                  <div class="row">
+                     <div class="m-2 "><button class="btn btn-primary profile-button" type="button" id="edit" >edit</button></div>
+                     <div class="m-2 "><button class="btn btn-primary profile-button" type="button">save</button></div>
+                     <div class="m-2 "><a href="/login" class="btn btn-danger profile-button" type="button">logout</a></div>
+                     <div class="m-2 "><button class="btn btn-danger profile-button" type="button" href="/login">logout1</button></div>
+                  </div>  
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   <script src="../public/javascript/profile.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+   <script src="assets/js/script.js"></script>
+</body>
+
+</html>
